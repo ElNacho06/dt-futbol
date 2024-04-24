@@ -11,13 +11,7 @@ async function miFuncion() {
         console.log(data)
     })
     .catch(error => {
-        if (data==="not found"){
-            console.log("No se encuentra")
-        }
-        else{
-            console.log(error)
-        }
-
+        console.log(error)
     })
 }
 miFuncion()
